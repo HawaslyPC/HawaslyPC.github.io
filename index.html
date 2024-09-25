@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Propinas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="calculator">
+
+        <div class="calculator__display" id="display">0</div>
+
+        <div class="calculator__keys">
+            <button class="key" id="borrar" data-action="clear">AC</button>
+            <button class="key" id="igual" data-action="calculate">=</button>
+        </div>
+
+        <div class="inputs">
+            <label for="total">Total Propina:</label>
+            <input type="number" id="total" placeholder="Total Propina">
+            <label for="completos">Personas Completas:</label>
+            <input type="number" id="completos" placeholder="Personas Completas">
+            <label for="medios">Personas Medias:</label>
+            <input type="number" id="medios" placeholder="Personas Medias">
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
